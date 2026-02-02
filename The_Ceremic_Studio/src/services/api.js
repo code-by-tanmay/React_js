@@ -1,0 +1,1 @@
+export const = import.meta.env.VITE_BACEND_URL
