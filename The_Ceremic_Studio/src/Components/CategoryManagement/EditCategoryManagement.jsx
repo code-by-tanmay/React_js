@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import GroupTwo from "../../Images/Grouptwo.png";
+import GroupTwo from "/Images/Grouptwo.png";
 
 function EditCategoryManagement({ quality, onClose, onSave }) {
   const [name, setName] = useState(quality.name);

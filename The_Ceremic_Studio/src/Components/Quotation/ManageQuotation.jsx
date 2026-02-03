@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { FaSearch } from "react-icons/fa";
 import { IoClose } from "react-icons/io5";
-import GroupIcon from "../../Images/Group.png";
+import GroupIcon from "/Images/Group.png";
 
 function ManageQuotation() {
   const [showModal, setShowModal] = useState(false);

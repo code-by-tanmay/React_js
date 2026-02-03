@@ -39,7 +39,7 @@ function Header() {
 
           {/* Profile Image */}
           <img
-            src="/src/Images/one.png"
+            src="/Images/one.png"
             alt="profile"
             className="w-[40px] h-[40px] rounded-full object-cover"
           />

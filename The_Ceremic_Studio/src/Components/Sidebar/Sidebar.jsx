@@ -5,7 +5,7 @@ import { MdOutlineDashboard } from "react-icons/md";
 import { FaPeopleGroup } from "react-icons/fa6";
 import { IoIosAddCircleOutline } from "react-icons/io";
 import { MdOutlineManageAccounts } from "react-icons/md";
-import LeftToggle from "../../Images/LeftToggle.png";
+import LeftToggle from "/Images/LeftToggle.png";
 
 
 
@@ -24,9 +24,9 @@ function Sidebar() {
     <div className="fixed top-0 left-0 w-[250px] min-h-screen p-[15px] bg-[#1E1E1E] rounded-tr-[50px] rounded-br-[50px] flex flex-col gap-[0.5px]">
 
       {/* Logo */}
-      <div className="pt-[35px] pb-[20px]">
+      <div className="pt-[15px] pb-[20px]">
         <Link to="/">
-        <img src="/src/Images/two.png" alt="logo" />
+        <img src="/Images/two.png" alt="logo" />
         </Link>
       </div>
 
@@ -52,7 +52,7 @@ function Sidebar() {
 
       <Link  to="/er"
         className="flex items-center gap-6 px-[12px] py-[10px] rounded-lg hover:bg-[#FA9C42] cursor-pointer"> 
-      <img src="/src/Images/ER.png" alt="ER" className="text-amber-50 h-[28px] w-[28px]" />
+      <img src="/Images/ER.png" alt="ER" className="text-amber-50 h-[28px] w-[28px]" />
 
         <p className="text-amber-50 text-[20px] leading-tight">Employee<br />Registration 
         </p>
@@ -61,7 +61,7 @@ function Sidebar() {
 
       <Link  to="/qm"
         className="flex items-center gap-7 px-[12px] py-[10px] rounded-lg hover:bg-[#FA9C42] cursor-pointer"> 
-      <img src="/src/Images/vector.png" alt="ER" className="text-amber-50 h-[28px] w-[28px]" />
+      <img src="/Images/Vector.png" alt="ER" className="text-amber-50 h-[28px] w-[28px]" />
 
         <p className="text-amber-50 text-[20px] leading-tight">Quality<br />Management 
         </p>
@@ -70,7 +70,7 @@ function Sidebar() {
 
       <Link  to="/cm"
         className="flex items-center gap-7 px-[12px] py-[10px] rounded-lg hover:bg-[#FA9C42] cursor-pointer"> 
-      <img src="/src/Images/vectortwo.png" alt="ER" className="text-amber-50 h-[28px] w-[28px]" />
+      <img src="/Images/Vectortwo.png" alt="ER" className="text-amber-50 h-[28px] w-[28px]" />
 
         <p className="text-amber-50 text-[20px] leading-tight">Category<br />Management 
         </p>
@@ -79,7 +79,7 @@ function Sidebar() {
 
        <Link  to="/bm"
         className="flex items-center gap-7 px-[12px] py-[10px] rounded-lg hover:bg-[#FA9C42] cursor-pointer"> 
-      <img src="/src/Images/Vectorthree.png" alt="ER" className="text-amber-50  h-[28px] w-[28px]" />
+      <img src="/Images/Vectorthree.png" alt="ER" className="text-amber-50  h-[28px] w-[28px]" />
 
         <p className="text-amber-50 text-[20px] leading-tight">Brand<br />Management 
         </p>
@@ -88,7 +88,7 @@ function Sidebar() {
 
        <Link  to="/pm"
         className="flex items-center gap-7 px-[12px] py-[10px] rounded-lg hover:bg-[#FA9C42] cursor-pointer"> 
-      <img src="/src/Images/Vectorfour.png" alt="ER" className="text-amber-50  h-[28px] w-[28px]" />
+      <img src="/Images/Vectorfour.png" alt="ER" className="text-amber-50  h-[28px] w-[28px]" />
 
         <p className="text-amber-50 text-[20px] leading-tight">Product<br />Management 
         </p>
@@ -97,7 +97,7 @@ function Sidebar() {
 
        <Link  to="/ar"
         className="flex items-center gap-7 px-[12px] py-[10px] rounded-lg hover:bg-[#FA9C42] cursor-pointer"> 
-      <img src="/src/Images/Vectorsix.png" alt="AR" className="text-amber-50  h-[28px] w-[28px]" />
+      <img src="/Images/Vectorsix.png" alt="AR" className="text-amber-50  h-[28px] w-[28px]" />
 
         <p className="text-amber-50 text-[20px] leading-tight">Architect<br />Ragistration 
         </p>
@@ -112,7 +112,7 @@ function Sidebar() {
   className="flex items-center gap-7 px-[12px] py-[10px] rounded-lg hover:bg-[#FA9C42] cursor-pointer"
 >
   <img
-    src="/src/Images/Vectorsix.png"
+    src="/Images/Vectorsix.png"
     alt="Inventory"
     className="h-[28px] w-[28px]"
   />
@@ -151,7 +151,7 @@ function Sidebar() {
   className="flex items-center gap-7 px-[12px] py-[10px] rounded-lg hover:bg-[#FA9C42] cursor-pointer"
 >
   <img
-    src="/src/Images/Vectorseven.png"
+    src="/Images/Vectorseven.png"
     alt="Quotation"
     className="h-[28px] w-[28px]"
   />

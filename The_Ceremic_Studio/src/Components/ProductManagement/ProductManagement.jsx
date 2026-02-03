@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import AddProductManagement from "./AddProductManagement";
-import QRImage from "../../Images/QR.png";
-import BarcodeImage from "../../Images/Barcode.png";
-import Vectortwelve from "../../Images/Vectortwelve.png";
-import GroupIcon from "../../Images/Group.png";
+import QRImage from "/Images/QR.png";
+import BarcodeImage from "/Images/Barcode.png";
+import Vectortwelve from "/Images/Vectortwelve.png";
+import GroupIcon from "/Images/Group.png";
 
 function ProductManagement() {
   const [showForm, setShowForm] = useState(false);

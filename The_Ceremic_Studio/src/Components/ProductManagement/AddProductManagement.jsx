@@ -1,5 +1,5 @@
 import React from "react";
-import GroupIcon from "../../Images/Group.png";
+import GroupIcon from "/Images/Group.png";
 import { FiPlus, FiTrash2 } from "react-icons/fi";
 
 function AddProductManagement({ onClose }) {
